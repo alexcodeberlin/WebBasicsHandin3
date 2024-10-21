@@ -1,28 +1,35 @@
-Property Management Web App
-This is a simple property management web application built using Node.js, Express.js, EJS, and MySQL. The app allows users to add, view, update, and delete properties, with each property linked to an owner from the users table.
+# Property Management Web App
 
-Features
-View Properties: List all properties, showing the title, description, price, location, and owner’s name.
-Add Properties: Add new properties via a form.
-Update Properties: Edit the details of existing properties.
-Delete Properties: Remove properties from the database.
-Dynamic Owner Display: Each property shows the owner's name by joining the properties and users tables.
-Technologies Used
-Node.js: Backend JavaScript runtime.
-Express.js: Web framework for handling routes and requests.
-EJS: Templating engine for dynamic HTML rendering.
-MySQL: Relational database for storing properties and users.
-CSS: Styling for a modern look and feel.
-Setup Instructions
-Prerequisites
-Node.js and npm installed.
-MySQL server set up.
-Installation
-Clone the repository:
+This is a simple property management web application built using **Node.js**, **Express.js**, **EJS**, and **MySQL**. The app allows users to add, view, update, and delete properties, with each property linked to an owner from the users table.
 
-bash
-Code kopieren
-git clone https://github.com/yourusername/property-management-app.git
+## Features
+
+- **View Properties**: List all properties, showing the title, description, price, location, and owner’s name.
+- **Add Properties**: Add new properties via a form.
+- **Update Properties**: Edit the details of existing properties.
+- **Delete Properties**: Remove properties from the database.
+- **Dynamic Owner Display**: Each property shows the owner's name by joining the `properties` and `users` tables.
+
+## Technologies Used
+
+- **Node.js**: Backend JavaScript runtime.
+- **Express.js**: Web framework for handling routes and requests.
+- **EJS**: Templating engine for dynamic HTML rendering.
+- **MySQL**: Relational database for storing properties and users.
+- **CSS**: Styling for a modern look and feel.
+
+## Setup Instructions
+
+### Prerequisites
+
+- **Node.js** and **npm** installed.
+- **MySQL** server set up.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/property-management-app.git
 Navigate to the project directory:
 
 bash
