@@ -110,8 +110,6 @@ FROM seq_1_to_100;
 
 ## Usage
 
-### Viewing Properties
-Visit `/properties` to see the full list of properties.
 
 ### Adding a Property
 1. Fill in the form with the title, description, price, location, and owner ID.
