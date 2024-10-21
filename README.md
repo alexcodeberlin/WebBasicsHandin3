@@ -16,7 +16,6 @@ This is a simple property management web application built using **Node.js**, **
 - **Express.js**: Web framework for handling routes and requests.
 - **EJS**: Templating engine for dynamic HTML rendering.
 - **MySQL**: Relational database for storing properties and users.
-- **CSS**: Styling for a modern look and feel.
 
 ## Setup Instructions
 
