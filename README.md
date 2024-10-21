@@ -75,6 +75,20 @@ This project is a simple property management system built using **Node.js**, **E
         database: 'dbprop' // Name of the database you created
     });
     ```
+Seed the Database with Dummy Data
+We'll insert 100 users and 100 properties into the database.
+
+sql
+Code kopieren
+-- Insert 100 Users
+INSERT INTO users (name, email) 
+SELECT CONCAT('User', seq), CONCAT('user', seq, '@example.com') 
+FROM seq_1_to_100;
+
+-- Insert 100 Properties
+INSERT INTO properties (title, description, price, location, owner_id) 
+SELECT CONCAT('Property', seq), 'Description for property ' || seq, seq * 1000, 'City ' || seq, seq 
+FROM seq_1_to_100;
 
 6. Run the application:
     ```bash
