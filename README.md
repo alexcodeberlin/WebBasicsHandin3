@@ -52,7 +52,8 @@ This project is a simple property management system built using **Node.js**, **E
       ```sql
       CREATE TABLE users (
           id INT AUTO_INCREMENT PRIMARY KEY,
-          name VARCHAR(255) NOT NULL
+          name VARCHAR(255) NOT NULL,
+          email VARCHAR(255) NOT NULL
       );
       
       CREATE TABLE properties (
